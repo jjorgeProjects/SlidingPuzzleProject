@@ -59,6 +59,7 @@ public class SlidingPuzzleDemo : MonoBehaviour
         }
 
         Debug.Log("Solución encontrada en " + (solutionBFS.Count - 1) + " pasos:");
+
         for (int i = 0; i < solutionBFS.Count; i++)
         {
 
@@ -98,7 +99,7 @@ public class SlidingPuzzleDemo : MonoBehaviour
         for (int i = 0; i < state.puzzle.Length; i++)
         {
             message += state.puzzle[i] + " ";
-            if (i % size != size - 1)
+            if (i % size == size - 1)
                 message +=  "\n";
         }
         return message;
