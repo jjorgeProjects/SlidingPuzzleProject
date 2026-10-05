@@ -225,9 +225,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaterJarsDemo
   maxExpansions: 200000
-  capacityA: 12
-  capacityB: 7
-  target: 2
+  capacityA: 4
+  capacityB: 3
+  target: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
