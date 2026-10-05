@@ -221,11 +221,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b01122f97089471d9f2a29d32f47213, type: 3}
+  m_Script: {fileID: 11500000, guid: 3d023c9555e0c4a72bd8d17f073043e8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
-  size: 4
+  m_EditorClassIdentifier: Assembly-CSharp::WaterJarsDemo
   maxExpansions: 200000
+  capacityA: 12
+  capacityB: 7
+  target: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

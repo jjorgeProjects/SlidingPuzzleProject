@@ -42,7 +42,9 @@ public class SlidingPuzzleDemo : MonoBehaviour
             };
 
         }
-
+        Debug.Log("=================================");
+        Debug.Log("===========BFS===================");
+        Debug.Log("=================================");
         SlidingPuzzleState initialState = new SlidingPuzzleState(initial);
         SlidingPuzzleProblem problem = new SlidingPuzzleProblem(initialState, size);
         BFSSearch<SlidingPuzzleState> bfs = new BFSSearch<SlidingPuzzleState>();
@@ -66,7 +68,7 @@ public class SlidingPuzzleDemo : MonoBehaviour
 
         Debug.Log($"Nodes expandidos: {bfs.NodesExpanded}");
         Debug.Log("=================================");
-        Debug.Log("=================================");
+        Debug.Log("=============DFS=================");
         Debug.Log("=================================");
 
         DFSSearch<SlidingPuzzleState> dfs = new DFSSearch<SlidingPuzzleState>();
